@@ -4,7 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-            }
+            	echo "dit is een bericht BUILDING"
+	     }
         }
     }
 }
